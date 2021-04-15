@@ -29,7 +29,7 @@ class Home extends React.Component {
 
 	  		</main>
 
-	  		<Footer />
+	  		<Footer/>
 
 	  		</>
 
