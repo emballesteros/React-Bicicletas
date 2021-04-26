@@ -28,9 +28,6 @@ class Home extends React.Component {
 				     <hr className="featurette-divider" />
 				    <Jumbotronhome />
 					<hr className="featurette-divider" />
-				    <Contenedorhome />
-
-		  	  		<hr className="featurette-divider" />
 
 		        </div>
 

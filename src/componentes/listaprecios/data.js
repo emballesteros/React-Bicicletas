@@ -1,6 +1,6 @@
 export default [
     {
-      name: 'Membresia Silver',
+      name: 'Bicicleta de montaña',
       scientificName: 'Panthero leo',
       size: 140,
       diet: ['mensual'],

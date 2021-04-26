@@ -15,7 +15,7 @@ function showAdditional(additional) {
 function Homeprecios() {
   return (
     <div className="wrapper">
-      <h1>Precios de suscripciones Mensuales</h1>
+      <h1>Lista de Precios</h1>
       {data.map(animal => (
         <Tarjetadeprecios additional={animal.additional}
           diet={animal.diet} key={animal.name} name={animal.name} scientificName={animal.scientificName} showAdditional={showAdditional}

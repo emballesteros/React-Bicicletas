@@ -21,7 +21,7 @@ class Slider extends React.Component {
 		            </div>
 		        </div>
 		        <div className="carousel-item">
-		            <img className="img-fluid" src= {process.env.PUBLIC_URL + 'images/foto2.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src= {process.env.PUBLIC_URL + 'images/foto2.jpg'} width="1150" height="60" />
 		            <div className="elementos">
 		                <a className="btn btn-lg btn-primary" href="https://www.todorock.com/lanzamientos/the-offspring-publica-let-the-bad-times-roll-tras-10-anos-de-silencio/" target="_blank" role="button">Leer más</a>
 		            </div>

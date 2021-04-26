@@ -10,7 +10,7 @@ class Contenedornosotros extends React.Component {
 
         <div class="container p-3 my-3 border">
         
-        <h1> Información de la nuestra marca</h1>
+        <h1> Información de Nuestra Marca</h1>
 
         </div>	
 
