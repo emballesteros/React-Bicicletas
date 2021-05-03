@@ -1,48 +1,20 @@
 export default [
     {
       name: 'Bicicleta de montaña',
-      scientificName: 'Panthero leo',
-      size: 140,
-      diet: ['mensual'],
+      scientificName: 'Convierte tu pasión en una aventura, ¡ha llegado el momento de tener una bicicleta más aerodinámica, más potente, más divertida!',
+      size: 'M',
+      diet: ['$3.117.000'],
     },
     {
-      name: 'Membresia Gold',
-      scientificName: 'Gorilla beringei',
-      size: 205,
-      diet: ['plantas', 'insectos','frutas'],
-      additional: {
-        notes: 'Esta membresia te permite descargas ilimitadas'
-      }
-    },
-  
-  
-    {
-      name: 'Rinoceronte',
-      scientificName: 'Rinoceronte',
-      size: 205,
-      diet: ['plantas', 'insectos','frutas'],
-      additional: {
-        notes: 'Este es el gorila oriental. También hay un gorila occidental que es de una especie diferente. sigue la informacion'
-      }
-    },
-  
-    {
-      name: 'Jirafa',
-      scientificName: 'Gorilla beringei',
-      size: 205,
-      diet: ['plantas', 'insectos','frutas'],
-      additional: {
-        notes: 'Este es el gorila oriental. También hay un gorila occidental que es de una especie diferente. sigue la informacion'
-      }
+      name: 'Bicicleta de ruta',
+      scientificName: 'Marco en aluminio y componentes Shimano de 10 velocidades.',
+      size: 47,
+      diet: ['$2.660.000'],
     },
     {
-      name: 'Zebra',
-      scientificName: 'Equus quagga',
-      size: 322,
-      diet: ['plantas'],
-      additional: {
-        notes: 'Hay tres especies diferentes de cebra..',
-        link: 'https://en.wikipedia.org/wiki/Zebra'
-      }
+      name: 'Casco In Mold',
+      scientificName: 'Con Trinquete Regulador, Correa, Visor delantero, Hebilla Itw',
+      size: 'M',
+      diet: ['$95.000'],
     }
   ]

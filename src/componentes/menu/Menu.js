@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import './Menu.css';
 //import './Menu.css';
 
 class Menu extends React.Component {
@@ -10,7 +11,7 @@ class Menu extends React.Component {
 
   		<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
 			  
-		    <NavLink to="/" className="navbar-brand">Bicicletas</NavLink>
+		    <NavLink to="/" className="navbar-brand"><img width="25" height="25" src="https://www.svgrepo.com/show/192370/bicycle-bike.svg" alt="alternatetext"></img></NavLink>
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
@@ -19,9 +20,9 @@ class Menu extends React.Component {
 			    <ul className="navbar-nav mr-auto">
 
 			        <li className="nav-item">
-			          	<NavLink to="/" className="nav-link">Home </NavLink>
+			          	<NavLink to="/" className="nav-link">Inicio</NavLink>
 			        </li>
-			        <li className="nav-item">
+			        <li className="nav-item" >
 			        	<NavLink to="/nosotros" className="nav-link active">Nosotros </NavLink>
 			        </li>
 			        <li className="nav-item">
