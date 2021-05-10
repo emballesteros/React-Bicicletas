@@ -17,7 +17,7 @@ class Jumbotronhome extends React.Component {
           </p>
           <hr class="my-4"></hr>
           <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Leer más</a>
+            <a class="btn btn-success" href="#" role="button">Leer más</a>
           </p>
         </div>
       </div>
