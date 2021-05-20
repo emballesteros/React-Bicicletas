@@ -21,7 +21,6 @@ class Nosotros extends React.Component {
 			<main role="main" className="flex-shrink-0 mt-5">
 		        
 				<Jumbotron /> 
-				<Contenedornosotros/>
 				<Divnosotros/>
 				<Detalles />  
 				

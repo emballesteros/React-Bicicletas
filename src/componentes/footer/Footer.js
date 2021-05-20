@@ -1,21 +1,22 @@
 import React from 'react';
- 
- 
+
+
 class Footer extends React.Component {
- 
+
   render() {
- 
+
     return (
- 
-        <footer className="container bg-dark text-white">
-            <p className="float-right"><a href="#">Subir</a></p>
-            <p>&copy; {(new Date().getFullYear())} Mi Proyecto, Inc. &middot; <a href="#">Política de Privacidad</a> &middot; <a href="#">Términos</a></p>
-        </footer>
- 
+
+      <footer class="bg-light text-center text-lg-start">
+
+        <a class="text-dark" href="#">Bicicletas © 2021 Copyright</a>
+
+      </footer>
+
     )
-    
+
   }
- 
+
 }
- 
+
 export default Footer;
