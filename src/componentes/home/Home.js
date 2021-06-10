@@ -12,23 +12,21 @@ class Home extends React.Component {
 
 	render() {
 
-		return(
+		return (
 
 			<>
 
-			<Menu />
+				<Menu />
 
-		  	  		<Slider />
-					<hr className="featurette-divider" />
-		  	  		<Servicios />
-				     <hr className="featurette-divider" />
-				    <Jumbotronhome />
-					<hr className="featurette-divider" />
+				<Slider />
+				<div className="container"><hr className="featurette-divider" /></div>
+				<div className="container"><Servicios /></div>
+				<div className="container"><hr className="featurette-divider" /></div>
+				<div className="container"><Jumbotronhome /></div>
+				<div className="container"><hr className="featurette-divider" /></div>
+				<Footer />
 
-
-	  		<Footer />
-
-	  		</>
+			</>
 
 		)
 

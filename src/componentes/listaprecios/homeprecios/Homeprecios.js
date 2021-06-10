@@ -1,49 +1,46 @@
 import React from 'react';
 import data from '../data';
 import Tarjetadeprecios from '../tarjetadeprecios/Tarjetadeprecios';
-
-
-
-function showAdditional(additional) {
-  const alertInformation = Object.entries(additional)
-    .map(information => `${information[0]}: ${information[1]}`)
-    .join('\n');
-  alert(alertInformation)
-};
-
+import './Homeprecios.css';
 
 function Homeprecios() {
   return (
     <div className="container">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4" class="text">Bicicletas</h1>
-          <p class="lead" class="text">Convierte tu pasión en una aventura, ¡ha llegado el momento de tener una bicicleta más aerodinámica, más potente, más divertida! Atrévete a rodar con una bici de montaña que te hará sentir competidor!.</p>
-        </div>
+      <hr className="featurette-divider" />
+      <div className="container" class="fontBicicletas">
+        <h2 class="centerText">Bicicletas</h2>
+        <p class="centerText">Convierte tu pasión en una aventura, ¡ha llegado el momento de tener una bicicleta más aerodinámica, más potente, más divertida! Atrévete a rodar con la optimus, una bici de montaña que te hará sentir competidor!</p>
       </div>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/2568/3124/products/bicicleta-tucana-negro---gris_5_376da0d4-9494-4881-be4d-1d36e09a359e_720x.png?v=1620480933" alt="Card image cap"></img>
-          <div class="card-body">
-            <h5 class="card-title">Bicicleta de montaña - 9 velocidades</h5>
-            <p class="card-text">ALUMINIO CARBON LOOKING TYPE POST MOUNT CABLEADO INTERNO.</p>
-          </div>
+      <hr className="featurette-divider" />
+
+      <div className="row" class="padre">
+
+        <div className="col-lm-4" class="hijo">
+          <img class="img-fluid" width="450" height="200" src={process.env.PUBLIC_URL + 'images/bici1.jpg'} alt="alternatetext"></img>
+          <h5 class="fontContenido"><b>Bicicleta de Montaña - 8 Velocidades</b></h5>
+          <p class="fontContenido">$1.516.600</p>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/2568/3124/products/tucana-negro-naranja-12vel-4_720x.png?v=1619701608" alt="Card image cap"></img>
-          <div class="card-body">
-            <h5 class="card-title">Bicicleta de montaña - 12 Velocidades</h5>
-            <p class="card-text">ALUMINIO CARBON LOOKING TYPE POST MOUNT CABLEADO INTERNO.</p>
-          </div>
+
+        <div className="col-lm-4" class="hijo">
+          <img class="img-fluid" width="450" height="200" src={process.env.PUBLIC_URL + 'images/bici2.jpg'} alt="alternatetext"></img>
+          <h5 class="fontContenido"><b>Bicicleta de montaña - 9 velocidades</b></h5>
+          <p class="fontContenido">$2.291.000</p>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/2568/3124/products/Koruna-Fucsia---Turquesa_720x.png?v=1618678705" alt="Card image cap"></img>
-          <div class="card-body">
-            <h5 class="card-title">Bicicleta de montaña</h5>
-            <p class="card-text">ALUMINIO KORUNA CABLEADO INTERNO CON POST MOUNT INTERNO.</p>
-          </div>
+
+        <div className="col-lm-4" class="hijo">
+          <img class="img-fluid" width="450" height="200" src={process.env.PUBLIC_URL + 'images/bici3.jpg'} alt="alternatetext"></img>
+          <h5 class="fontContenido"><b>Bicicleta de montaña - 12 Velocidades</b></h5>
+          <p class="fontContenido">$3.117.000</p>
         </div>
+
+        <div className="col-lm-4" class="hijo">
+          <img class="img-fluid" width="450" height="200" src={process.env.PUBLIC_URL + 'images/bici4.jpg'} alt="alternatetext"></img>
+          <h5 class="fontContenido"><b>Bicicleta de Ruta - 9 Velocidades</b></h5>
+          <p class="fontContenido">$2.235.000</p>
+        </div>
+ 
       </div>
+      <hr className="featurette-divider" />
     </div>
   )
 }

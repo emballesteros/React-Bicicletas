@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+.fontTitulo{
+    font-family: 'Staatliches', cursive;
+}
+
+.fontTexto {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.centerText{
+    text-align:center;
+ }

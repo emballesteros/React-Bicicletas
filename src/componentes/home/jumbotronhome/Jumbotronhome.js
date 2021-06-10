@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import './Jumbotronhome.css';
 
 class Jumbotronhome extends React.Component {
 
@@ -8,18 +7,28 @@ class Jumbotronhome extends React.Component {
 
     return (
 
-      <div class="container jumbotron">
-        <div class="jumbotron jumbotron-fluid">
-          <h1 class="display-4">¿QUÉ DEBES TENER EN CUENTA A MOMENTO DE COMPRAR TU BICI?</h1>
-          <p class="lead">
-          Elegir entre tantas bicicletas resulta complejo por la variedad de modelos, estilos, 
-          componentes que trae cada una, precios del mercado y, por supuesto, la cantidad de tiendas online o físicas...
-          </p>
-          <hr class="my-4"></hr>
-          <p class="lead">
-            <a class="btn btn-success" href="#" role="button">Leer más</a>
-          </p>
+      <div class="container" className="centerText">
+
+        <h3 class="fontJumbotron">ELIJE COMÓ VAS A RODAR</h3>
+
+        <hr className="featurette-divider" />
+
+        <div className="row">
+
+          <div className="col-sm-4">
+            <img class="img-fluid" width="350" height="200" src={process.env.PUBLIC_URL + 'images/bici1.jpg'} alt="alternatetext"></img>
+          </div>
+
+          <div className="col-sm-4">
+            <img class="img-fluid" width="350" height="200" src={process.env.PUBLIC_URL + 'images/bici2.jpg'} alt="alternatetext"></img>
+          </div>
+
+          <div className="col-sm-4">
+            <img class="img-fluid" width="350" height="200" src={process.env.PUBLIC_URL + 'images/bici3.jpg'} alt="alternatetext"></img>
+          </div>
+
         </div>
+
       </div>
 
     )

@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+.fontJumbotron {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.centerText{
+   text-align:center;
+}

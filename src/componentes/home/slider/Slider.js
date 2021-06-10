@@ -19,6 +19,9 @@ class Slider extends React.Component {
 					<div className="carousel-item">
 						<img class='img-fluid' src={process.env.PUBLIC_URL + 'images/foto2.jpg'} />
 					</div>
+					<div className="carousel-item">
+						<img class='img-fluid' src={process.env.PUBLIC_URL + 'images/foto3.jpg'} />
+					</div>
 
 				</div>
 				<a className="carousel-control-prev" href="#slider" role="button" data-slide="prev">

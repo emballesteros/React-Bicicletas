@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Footer.css';
 
 class Footer extends React.Component {
 
@@ -7,9 +7,9 @@ class Footer extends React.Component {
 
     return (
 
-      <footer class="bg-light text-center text-lg-start">
+      <footer class="bg-white text-center">
 
-        <a class="text-dark" href="#">Bicicletas © 2021 Copyright</a>
+        <a class="text-white" className="fontFooter">Proyecto Bicicletas © 2021 | Manuel Ballesteros</a>
 
       </footer>
 

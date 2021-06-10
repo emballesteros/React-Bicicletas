@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+.fontBicicletas{
+    font-family: 'Staatliches', cursive;
+}
+
+.fontContenido {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.centerText{
+    text-align:center;
+ }
+
+.padre {
+    text-align: center;
+}
+  
+.hijo {
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}

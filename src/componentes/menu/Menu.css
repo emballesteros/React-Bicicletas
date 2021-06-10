@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 ul li{
     display: inline-block;
     float: none;
+}
+.fontMenu {
+    font-family: 'News Cycle', sans-serif;
+}
+.fontMenuTitle{
+    font-family: 'Audiowide', cursive;
+    font-style: oblique;
 }
